@@ -67,7 +67,7 @@ document.getElementById('form').addEventListener('submit', function (event) {
     };
 
     // Send the form data via Email.js
-    emailjs.send("service_v7xkvv5", "template_r0ic1bt", formData)
+    emailjs.send("service_cbpvkm5", "template_hgcx2dj", formData)
         .then(function (response) {
             console.log('SUCCESS!', response.status, response.text);
             redirectToURL();
